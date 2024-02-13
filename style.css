@@ -1,0 +1,227 @@
+*{
+    font-family: sans-serif;
+    margin: 2px;
+    padding: 0%;
+   
+   text-decoration: none;
+}
+.botton{
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.first:hover{
+    background-color: rgb(204, 154, 251);
+    border: blueviolet;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.choix{
+    text-decoration: none;
+    color: black;
+}
+.one{
+background-color: rgb(145, 63, 222);
+display: flex;
+justify-content: center;
+padding: 60px;
+
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px
+    ;
+}
+
+.one h3{
+    background-color: rgb(41, 41, 158);
+   display: block;
+   width: fit-content;
+   font-size: 20px;
+ 
+}
+.two{
+    text-align: center;
+}
+.nombre{
+    display: flex;
+}
+#nbr{
+    display: flex;
+   justify-content: center;
+}
+.vin1,.vin2,.vin3,.vin4{
+    font-size: 50px;
+}
+.vin1{
+    color:rgb(86, 164, 232);
+}
+.vin2{
+    color: rgba(109, 14, 199, 0.797);
+}
+.vin3{
+    color: rgb(178, 115, 237);
+}
+.vin4{
+    color: rgb(217, 141, 236);
+}
+.prcolor{
+    color: white;
+    padding-top:30px;
+}
+#grad{
+    background:linear-gradient(to right,rgb(81, 162, 255),rgb(14, 99, 14),rgb(239, 140, 239));
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    display: inline-block;
+}
+
+
+h4{
+    color: rgb(236, 65, 65);
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.collection{
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+    align-items: center;
+}
+#par1{ display: flex;}
+
+h3{
+    font-family: sans-serif;
+}
+main{
+    margin:0 auto;
+    width: fit-content;
+    width: 60%;
+}
+
+
+.colone img{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+.preligne{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: fit-content;
+    max-width: 800px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.colone{
+    border:0px solid ;
+    border-radius: 15px ;
+    background-color: white;
+    width: 200px;
+}
+.pic{
+    margin: auto;
+    display: flex;
+    background-color: rgb(255, 244, 244);
+    justify-content: space-between;
+    align-content: center; 
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+} 
+p{
+    color: rgb(122, 119, 119);
+    font-family: sans-serif;
+    padding: 10px;
+}
+h2{
+    font-family: sans-serif;
+    padding-left: 9px;
+}
+.deuligne{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+footer{
+    background-color: rgb(215, 214, 214);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+footer a{
+    display: block;
+    color: black;
+}
+#icons{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+}
+
+#social{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#circle{
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+    .two{ 
+        display: none;
+    }
+    .one{
+        flex-direction: column;
+        align-items: center;
+    }
+    .one img{
+        margin: 0px;
+        width: 300px;
+        height: 250px;
+    }
+   .botton{
+    height: 50px;
+   }
+   .collection{
+    display: flex;
+flex-direction: column;
+}
+img{
+    width: 100%;
+}
+#text{
+    width: 100%;
+}
+
+footer{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+#icons{
+    margin-top: 10px;
+}
+  
+}
